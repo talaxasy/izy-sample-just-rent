@@ -61,7 +61,7 @@ JustRent is built using modern web technologies such as:
 
 ## Selected Files
 
-Here are the 3 most worthy files from our codebase:
+Here are the 3 most worthy files from my codebase:
 
 1. **HouseResolvers.ts**: Endpoint logic written in type-graphql, also used by typeorm to search for information in the database.
 
