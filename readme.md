@@ -8,12 +8,29 @@ Our **verified hosts** and **detailed property information** ensure that you get
 
 Join the JustRent community today and find your perfect accommodation with ease.
 
+> If you want to see full code base go [here](https://github.com/talaxasy/just-rent-next)
+
+> If you want to see full pack of images go [here](https://gist.github.com/talaxasy/8aafec2056fe0d40995b45da2ea51879)
+
 > Original: [here](https://gist.github.com/talaxasy/b72315ae6177213f07093461b3905990#онлайн-площадки-для-размещения-бронирования-и-поиска-жилья)
+
+<br/>
+
+## ⚠️ Disclaimer
+
+<details>
+<summary>Click to expand Disclaimer</summary>
+
+This is a very old code, which is more than 2 years old, at that time I was still a very young developer, so many things in the code could be optimized or even rewritten, but at that time it was outstanding for me)
+
+</details>
+<br/>
 
 ## Tech Stack
 
 <details>
 <summary>Click to expand tech stack</summary>
+
 JustRent is built using modern web technologies such as:
 
 - Next.js
@@ -46,11 +63,11 @@ JustRent is built using modern web technologies such as:
 
 Here are the 3 most worthy files from our codebase:
 
-1. **src/components/SearchBar.tsx**: This component is responsible for the search bar functionality which is the backbone of our application.
+1. **HouseResolvers.ts**: Endpoint logic written in type-graphql, also used by typeorm to search for information in the database.
 
-2. **src/graphql/schema.graphql**: This file contains the schema for our GraphQL API which powers the data layer of our application.
+2. **create-hose.tsx**: The most valuable and very large page on the entire site. This page has a form of more than 30 fields for adding housing to the site.
 
-3. **src/pages/index.tsx**: This is the entry point of our application and contains the main logic for rendering the search results.
+3. **createWithApollo.tsx**: This hook was created for easy control of ssr in combination with Apollo.
 
 ## Features
 
