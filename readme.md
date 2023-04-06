@@ -8,6 +8,8 @@ Our **verified hosts** and **detailed property information** ensure that you get
 
 Join the JustRent community today and find your perfect accommodation with ease.
 
+> Original: [here](https://gist.github.com/talaxasy/b72315ae6177213f07093461b3905990#онлайн-площадки-для-размещения-бронирования-и-поиска-жилья)
+
 ## Tech Stack
 
 <details>
